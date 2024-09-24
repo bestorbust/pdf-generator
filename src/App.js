@@ -12,7 +12,7 @@ const ResidentForm = () => {
     modeOfPayment: '',
     depositAmount: '',
     dateOfPayment: '',
-    overstandingDues: '',
+    //overstandingDues: '',
     sharing: '',
     rentMonth: '',
   });
@@ -83,10 +83,10 @@ const ResidentForm = () => {
           Date of Payment:
           <input type="date" name="dateOfPayment" value={formData.dateOfPayment} onChange={handleChange} required style={styles.input} />
         </label>
-        <label style={styles.label}>
-          Overstanding Dues:
-          <input type="text" name="overstandingDues" value={formData.overstandingDues} onChange={handleChange} required style={styles.input} />
-        </label>
+        //<label style={styles.label}>
+          //Overstanding Dues:
+          //<input type="text" name="overstandingDues" value={formData.overstandingDues} onChange={handleChange} required style={styles.input} />
+       // </label>
         <label style={styles.label}>
           Sharing:
           <input type="text" name="sharing" value={formData.sharing} onChange={handleChange} required style={styles.input} />
